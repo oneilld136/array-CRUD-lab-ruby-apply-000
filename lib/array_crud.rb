@@ -26,10 +26,10 @@ def retrieve_element_from_index(array,index)
   array[index]
 end
 
-def retrieve_first_element_from_array(array,index)
-  array[0]
+def retrieve_first_element_from_array(index)
+  [0]
 end
 
-def retrieve_last_element_from_array(array,index)
-  array[-1]
+def retrieve_last_element_from_array(index)
+  [-1]
 end
